@@ -1,0 +1,17 @@
+{
+  "name": "vite-plugin-svelte",
+  "description": "Vite plugin for Svelte support",
+  "version": "0.1.0",
+  "author": "intrnl",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/intrnl/vite-plugin-svelte"
+  },
+  "main": "plugin.js",
+  "dependencies": {
+    "rollup-plugin-svelte": "~5.2.2"
+  },
+  "peerDependencies": {
+    "svelte": "^3.0.0"
+  }
+}
