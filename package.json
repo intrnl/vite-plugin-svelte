@@ -7,7 +7,7 @@
   "repository": {
     "url": "https://github.com/intrnl/vite-plugin-svelte"
   },
-  "main": "plugin.js",
+  "main": "lib/index.js",
   "dependencies": {
     "rollup-plugin-svelte": "~5.2.2"
   },
