@@ -9,7 +9,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "rollup-plugin-svelte": "~5.2.2"
+    "rollup-plugin-svelte": "^5.2.2"
   },
   "peerDependencies": {
     "svelte": "^3.0.0"
