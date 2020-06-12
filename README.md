@@ -7,7 +7,7 @@ building.
 
 ## Setup
 
-- Install it with your package manager of choice,
+- Install it with your package manager of choice
   - [npm](https://npmjs.com/get-npm): `npm i vite-plugin-svelte`
   - [pnpm](https://pnpm.js.org/en/installation): `pnpm i vite-plugin-svelte`
   - [yarn](https://classic.yarnpkg.com/en/docs/install/) `yarn add vite-plugin-svelte`
