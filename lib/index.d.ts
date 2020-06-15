@@ -1,10 +1,35 @@
-import { Plugin } from 'vite';
+import type { Plugin } from 'vite';
+
+
+interface SveltePreprocessorResult {
+  code: string;
+  map?: object | string;
+  dependencies?: string[];
+}
+
+type SveltePreprocessor = (opts: {
+  content: string;
+  attributes: Record<string, string | boolean>;
+  filename?: string;
+}) => SveltePreprocessorResult | Promise<SveltePreprocessorResult>;
+
+type SvelteMarkupPreprocessor = (opts: {
+  content: string;
+  filename?: string;
+}) => SveltePreprocessorResult | Promise<SveltePreprocessorResult>;
+
+interface SveltePreprocessorGroup {
+  markup?: SvelteMarkupPreprocessor;
+  style?: SveltePreprocessor;
+  script?: SveltePreprocessor;
+}
 
 
 interface SveltePluginOptions {
   dev?: boolean;
   immutable?: boolean;
   hydratable?: boolean;
+  preprocess?: SveltePreprocessorGroup | SveltePreprocessorGroup[];
 }
 
 declare function sveltePlugin (options?: SveltePluginOptions): Plugin;
