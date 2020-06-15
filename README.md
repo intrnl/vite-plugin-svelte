@@ -34,6 +34,10 @@ building.
   };
   ```
 
+## Things to consider
+
+- During development, preprocessors that expects filenames will not work.
+
 ## To-do
 
 - Enable HMR support via [`svelte-hmr`](https://github.com/rixo/svelte-hmr)
