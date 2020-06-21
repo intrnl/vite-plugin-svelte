@@ -14,7 +14,7 @@
   "peerDependencies": {
     "svelte": "^3.0.0",
     "svelte-hmr": "^0.9.0-1",
-    "vite": ">=0.20.8"
+    "vite": ">=0.20.8 <2.0.0"
   },
   "devDependencies": {
     "vite": "^1.0.0-beta.1"
