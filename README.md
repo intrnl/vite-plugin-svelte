@@ -19,18 +19,6 @@ building.
     plugins: [
       svelte(),
     ],
-
-    // This is optional, and is only beneficial during development
-    optimizeDeps: {
-      include: [
-        'svelte/internal',
-        // 'svelte/store',
-        // 'svelte/animate',
-        // 'svelte/easing',
-        // 'svelte/motion',
-        // 'svelte/transition',
-      ],
-    },
   };
   ```
 
