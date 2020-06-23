@@ -1,6 +1,8 @@
 dependencies:
-  rollup-plugin-svelte: 5.2.3
+  rollup-plugin-svelte: 5.2.3_svelte@3.23.2
 devDependencies:
+  svelte: 3.23.2
+  svelte-hmr: 0.9.0_svelte@3.23.2
   vite: 1.0.0-beta.1
 lockfileVersion: 5.1
 packages:
@@ -1818,11 +1820,12 @@ packages:
       rollup: '*'
     resolution:
       integrity: sha512-bzYC/MwYsHgNGpWMI3G4qTjstJCtFqE25/k1Cq/sjfnzl7MQwwrrA4SAQEMiFgKbsw1H4tijVGY1tRk5Xa4h9g==
-  /rollup-plugin-svelte/5.2.3:
+  /rollup-plugin-svelte/5.2.3_svelte@3.23.2:
     dependencies:
       require-relative: 0.8.7
       rollup-pluginutils: 2.8.2
       sourcemap-codec: 1.4.8
+      svelte: 3.23.2
     dev: false
     peerDependencies:
       rollup: '>=0.60.0'
@@ -2013,6 +2016,19 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
+  /svelte-hmr/0.9.0_svelte@3.23.2:
+    dependencies:
+      svelte: 3.23.2
+    dev: true
+    peerDependencies:
+      svelte: '>=3.19.0'
+    resolution:
+      integrity: sha512-spsA604P1/DIiFRyaR4H4hYMx8RFHNkyYN9ogqdu38bJGO/ezLwH/dqnE7E7PHDzDOTFyccvpa+oVUICKXHqTA==
+  /svelte/3.23.2:
+    engines:
+      node: '>= 8'
+    resolution:
+      integrity: sha512-hE8GeTM83YVR4GY6/6PeDEcGct4JS5aCi+IYbCAa76oaPSfuF7L85DQYULQxlTK/KPWzw3L1GRGmC3oPG/PQoA==
   /terser/4.8.0:
     dependencies:
       commander: 2.20.3
@@ -2225,4 +2241,6 @@ packages:
       integrity: sha512-faQrqNMzcPCHGVC2aaOINk13K+aaBDUPjGWl0teOXywElLjyVAB6Oe2jj62jHYtwsU49jXhScYbvPENK+6zAvQ==
 specifiers:
   rollup-plugin-svelte: ^5.2.3
+  svelte: ^3.0.0
+  svelte-hmr: ^0.9.0-1
   vite: ^1.0.0-beta.1
