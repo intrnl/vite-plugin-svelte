@@ -1,3 +1,7 @@
+# 1.2.1
+
+- Fix typo in `componentize` function
+
 # 1.2.0
 
 - Add filenames during development
