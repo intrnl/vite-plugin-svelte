@@ -21,7 +21,3 @@ building.
     ],
   };
   ```
-
-## Things to consider
-
-- During development, preprocessors that expects filenames will not work.
