@@ -18,3 +18,14 @@ Vite plugin for compiling Svelte components.
     ],
   };
   ```
+
+## Recommendations
+
+- Dedupe `svelte` dependency  
+  This can be done by adding it into the `rollupDedupe` option
+  ```js
+  export default {
+    // [...]
+    rollupDedupe: ['svelte'],
+  };
+  ```
