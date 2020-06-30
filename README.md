@@ -1,6 +1,6 @@
 # vite-plugin-svelte
 
-Vite plugin for compiling Svelte components.
+[Svelte](https://svelte.dev) integration for [Vite](https://github.com/vitejs/vite), a fast web dev build tool.
 
 ## Setup
 
@@ -22,7 +22,7 @@ Vite plugin for compiling Svelte components.
 ## Recommendations
 
 - Dedupe `svelte` dependency  
-  This can be done by adding it into the `rollupDedupe` option
+  This can be done with the `rollupDedupe` option.
   ```js
   export default {
     // [...]
