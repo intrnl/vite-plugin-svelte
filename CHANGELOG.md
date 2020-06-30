@@ -1,3 +1,8 @@
+# 1.4.0 (@next)
+
+- `svelte-hmr` is no longer a peer dependency  
+  Hard to declare whether this should be a breaking change or not
+
 # 1.3.0
 
 - Use `Plugin#transforms` to transform components during dev.
