@@ -1,3 +1,7 @@
+# 1.3.0
+
+- Use `Plugin#transforms` to transform components during dev.
+
 # 1.2.1
 
 - Fix typo in `componentize` function
