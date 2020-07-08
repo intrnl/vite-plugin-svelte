@@ -1,4 +1,4 @@
-# 1.4.0 (@next)
+# 2.0.0
 
 - `svelte-hmr` is no longer a peer dependency  
   Hard to declare whether this should be a breaking change or not
