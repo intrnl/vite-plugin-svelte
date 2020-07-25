@@ -2,6 +2,7 @@
 
 - Added TypeScript transformation  
   Disabled by default, uses Vite's ESBuild instance.
+- Add missing TypeScript option in config (2.1.1)
 
 # 2.0.0
 

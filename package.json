@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-svelte",
   "description": "Vite plugin for Svelte support",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "intrnl",
   "license": "MIT",
   "repository": {
