@@ -1,8 +1,14 @@
-# 2.1.0
+# 2.2.0
 
-- Added TypeScript transformation  
-  Disabled by default, uses Vite's ESBuild instance.
-- Add missing TypeScript option in config (2.1.1)
+- Remove TypeScript transformation  
+  We need access to ESBuild AST in order to prevent any necessary imports from
+  being omitted, let's just say it's impossible to do at the moment.
+
+# ~~2.1.0~~
+
+- ~~Added TypeScript transformation~~  
+  ~~Disabled by default, uses Vite's ESBuild instance.~~
+- ~~Add missing TypeScript option in config (2.1.1)~~
 
 # 2.0.0
 
