@@ -29,3 +29,13 @@
     rollupDedupe: ['svelte'],
   };
   ```
+
+- Enable TypeScript transformation support  
+  This is disabled by default.
+  ```js
+  export default {
+    plugins: [
+      svelte({ typescript: true }),
+    ],
+  }
+  ```
