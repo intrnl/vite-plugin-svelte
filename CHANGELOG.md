@@ -1,3 +1,8 @@
+# 2.1.0
+
+- Added TypeScript transformation  
+  Disabled by default, uses Vite's ESBuild instance.
+
 # 2.0.0
 
 - `svelte-hmr` is no longer a peer dependency  
