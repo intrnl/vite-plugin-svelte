@@ -38,6 +38,7 @@ interface SvelteHotOptions {
 
 
 interface SveltePluginOptions {
+  typescript?: boolean,
   dev?: boolean,
   immutable?: boolean,
   hydratable?: boolean,
