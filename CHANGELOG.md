@@ -1,3 +1,8 @@
+# 2.3.0
+
+- Added an incredibly dirty hack to make Vite resolve `svelte` field first
+  before any other fields like `module` and `main`
+
 # 2.2.0
 
 - Remove TypeScript transformation  
