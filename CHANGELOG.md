@@ -2,6 +2,7 @@
 
 - Added an incredibly dirty hack to make Vite resolve `svelte` field first
   before any other fields like `module` and `main`
+- **2.3.1**: Add option to disable `svelte` field resolution
 
 # 2.2.0
 
@@ -13,7 +14,7 @@
 
 - ~~Added TypeScript transformation~~  
   ~~Disabled by default, uses Vite's ESBuild instance.~~
-- ~~Add missing TypeScript option in config (2.1.1)~~
+- ~~**2.1.1**: Add missing TypeScript option in config (2.1.1)~~
 
 # 2.0.0
 
@@ -24,13 +25,10 @@
 
 - Use `Plugin#transforms` to transform components during dev.
 
-# 1.2.1
-
-- Fix typo in `componentize` function
-
 # 1.2.0
 
 - Add filenames during development
+- **1.2.1**: Fix typo in `componentize` function
 
 # 1.1.0
 
