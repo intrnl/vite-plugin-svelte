@@ -43,6 +43,7 @@ interface SveltePluginOptions {
   hydratable?: boolean,
   preprocess?: SveltePreprocessorGroup | SveltePreprocessorGroup[],
   hot?: boolean | SvelteHotOptions,
+  resolveSvelteField?: boolean,
 }
 
 declare function sveltePlugin (options?: SveltePluginOptions): Plugin;
