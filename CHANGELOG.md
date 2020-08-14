@@ -1,3 +1,7 @@
+# 2.4.0
+
+- Add `svelte` in optimizeDeps
+
 # 2.3.0
 
 - Added an incredibly dirty hack to make Vite resolve `svelte` field first
