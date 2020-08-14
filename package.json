@@ -10,14 +10,14 @@
   "main": "lib/index.js",
   "dependencies": {
     "rollup-plugin-svelte": "^5.2.3",
-    "svelte-hmr": "^0.10.1"
+    "svelte-hmr": "^0.10.2"
   },
   "peerDependencies": {
     "svelte": "^3.0.0",
     "vite": ">=0.20.8 <2.0.0"
   },
   "devDependencies": {
-    "svelte": "^3.24.0",
-    "vite": "^1.0.0-rc.3"
+    "svelte": "^3.24.1",
+    "vite": "^1.0.0-rc.4"
   }
 }
