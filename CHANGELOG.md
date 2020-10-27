@@ -1,3 +1,43 @@
+# 3.0.0
+
+- Changed how the plugin is exported, now you have to do:
+  ```js
+  import { svelte } from 'vite-plugin-svelte';
+
+  export default {
+    plugins: [
+      svelte(),
+    ],
+  };
+  ```
+- Changed how the plugin options are done to fit the [new normalized options](https://github.com/sveltejs/svelte/issues/1101#issuecomment-708104278), while
+  the plugin still won't read the `svelte.config.js` for you, atleast you can
+  manually require it yourself  
+  ```js
+  export default {
+    plugins: [
+      svelte({
+        compilerOptions: {
+          dev: true,
+        },
+      }),
+    ],
+  };
+  ```
+- Added a way to change where the HMR API runtime gets mounted, the default is
+  `/@@svelte-hmr`, but you can change that by doing the following:  
+  ```js
+  export default {
+    plugins: [
+      svelte({
+        pluginOptions: {
+          hotApiMount: '/@@svelte-hmr',
+        },
+      }),
+    ],
+  };
+  ```
+
 # 2.4.0
 
 - Add `svelte` in optimizeDeps
