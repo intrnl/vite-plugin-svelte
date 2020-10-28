@@ -1,3 +1,9 @@
+# 3.0.1
+
+- Something seems to be wrong with how npm@7 tries to pack the packages,
+  so this is a republish to see if it had fixed itself.  
+  (still have no clue on what's causing this)
+
 # 3.0.0
 
 - Changed how the plugin is exported, now you have to do:
