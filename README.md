@@ -1,7 +1,7 @@
 # vite-plugin-svelte
 
 > **Deprecated**  
-> Vite 2.0+ supports using Rollup plugins directly, use the official [rollup-plugin-svelte](https://npm.im/rollup-plugin-svelte) or [rollup-plugin-svelte-hot](https://npm.im/rollup-plugin-svelte-hot) instead.
+> Use the official [sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte) for Vite 2.0+ instead.
 
 [Svelte](https://svelte.dev) integration for [Vite](https://github.com/vitejs/vite), a fast web dev build tool.
 
